@@ -1,0 +1,32 @@
+
+.heading
+{
+font-size: 23px;
+width: 100%;
+margin: 0px;
+
+}
+
+#status
+{
+font-size: 18px;
+}
+
+body{
+    background-size: cover;
+    background-position: center;
+}
+
+canvas{
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px red;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 5px 5px 5px red;}
+    to{box-shadow: 5px 5px 5px blue;}
+}
+
